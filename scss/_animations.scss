@@ -1,0 +1,45 @@
+
+@keyframes visibleH1 {
+    from{
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+    to {
+        display: inline;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+@keyframes unvisible-sliden_scaled_visibleH1 {
+    from {
+
+    }
+    to {
+
+    }
+}
+@keyframes visibleP {
+    from {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+    to {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+@keyframes unvisibleP {
+    from {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
+    to {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
