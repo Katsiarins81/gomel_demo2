@@ -1,5 +1,5 @@
  if (window.innerWidth >= 1200) {
-
+console.log("1");
 window.addEventListener('load', () => {
   mask.style.display = 'none';
   // при необходимости сбросить активность кнопок
@@ -164,7 +164,7 @@ document.getElementById('showImage2').addEventListener('click', () => {
 	
 	
 	
-if (window.innerWidth < 768) {
+if (window.innerWidth < 1100) {
 	 window.addEventListener('load', () => {
   mask.style.display = 'none';
   // при необходимости сбросить активность кнопок
@@ -485,6 +485,7 @@ document.getElementById('showImage2').addEventListener('click', () => {
 	
 	
 if (window.innerWidth < 768) {
+	console.log("2");
 	 window.addEventListener('load', () => {
   mask.style.display = 'none';
   // при необходимости сбросить активность кнопок
@@ -636,3 +637,4 @@ video2.classList.add('active');
 });
 
  }
+
