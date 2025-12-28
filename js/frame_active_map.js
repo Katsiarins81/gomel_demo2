@@ -191,8 +191,6 @@ function showContentFromHash() {
       headerH3.textContent = nameStreet[num]; // обновляем содержимое заголовка
       image1.src = '../media/img/OLD/' + nameStreet[num] + '_old.jpg';
       image2.src = '../media/img/NEW/' + nameStreet[num] + '_new.jpg';
-	  videos1.src = '../media/img/OLD/' + nameStreet[num] + '_old.mp4';
-      videos2.src = '../media/img/NEW/' + nameStreet[num] + '_new.mp4';
       const urlMap = document.getElementById('urlMap');
        urlMap.setAttribute('href', urlStreet[num]);
 	   // Пути к видеофайлам для каждой картинки (замените на ваши реальные пути)
@@ -316,5 +314,6 @@ video2.classList.add('active');
 });
 
  }
+
 
 
