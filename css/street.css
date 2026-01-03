@@ -293,7 +293,7 @@ footer a#back,
     width: 95%;
 }
 body #photo_switch {
-	display: block;
+	display: none;
     width: 150px;
     height: 300px;
     z-index: 100;
@@ -351,3 +351,4 @@ body #photo_switch.photo_switch_upp:hover{
    opacity: 1;
   }
 }
+
