@@ -41,7 +41,18 @@ body #photo_switch {
     height: 100%;
     border-radius: 6px;
   }
-
+h3::after {
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    background: url(../media/img/strong3.svg) no-repeat center;
+    background-size: 100%;
+    z-index: 6;
+    display: block;
+}
   /* Обе картинки - накладываются друг на друга, показываем одну */
   #image1, #image2 {
     position: absolute;
@@ -244,6 +255,7 @@ background:#564343 url("../media/img/home_2.svg") no-repeat center;
 h3 {
     font-size: 7.5vw;
 }
+
 .wrapp header{
   width: 100%;
 }
@@ -351,4 +363,3 @@ body #photo_switch.photo_switch_upp:hover{
    opacity: 1;
   }
 }
-
